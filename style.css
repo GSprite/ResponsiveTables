@@ -1,0 +1,50 @@
+        body {
+            background-image: url('mcdo.jpg');
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+          }
+          .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            overflow-x: auto;
+          }
+          h1 {
+            text-align: center;
+            color: #f04e4e;
+            margin-bottom: 20px;
+          }
+          table {
+            width: 100%;
+            border-collapse: collapse;
+            overflow-x: auto;
+            border-radius: 10px;
+            overflow: hidden;
+          }
+          th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+            transition: background-color 0.3s ease;
+          }
+          th {
+            background-color: #f2f2f2;
+            color: #333;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 14px;
+          }
+          td {
+            font-size: 14px;
+          }
+          .price {
+            font-weight: bold;
+          }
+          tr:hover {
+            transform: translateY(-5px); 
+            background-color: #f9f9f9;
+          }
